@@ -71,5 +71,15 @@
         },
         "hash_anterior": "ffeea4e1be6ff4d038ced03efdf2e61863b6e5830a48675d0cbcd4e523184a2a",
         "hash_atual": "1eb43d22cf44dc3d2d409b5360bd9fc8725b2323a8e12ccc32329ce95afc714c"
+    },
+    {
+        "id": 7,
+        "timestamp": "2026-06-17T13:44:35-03:00",
+        "evento": "Relatório de auditoria do sistema operacional gerado",
+        "dados": {
+            "arquivo": "auditoria/relatorios/auditoria_20260617_134435.txt"
+        },
+        "hash_anterior": "1eb43d22cf44dc3d2d409b5360bd9fc8725b2323a8e12ccc32329ce95afc714c",
+        "hash_atual": "f20892f3384972607f44c8bbfe1593f4780d73a6a456ecf123909aa4c0f6bc91"
     }
 ]
