@@ -49,5 +49,27 @@
         },
         "hash_anterior": "a2b83dee94f4ec7dbce940b85ff5c3216a5db4f43c999a9af1795728a4bbc2a7",
         "hash_atual": "17c325df6e2c3c04b27a0ef6ef758033d0672e95fbaf3074b0d2d4207deb9553"
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-06-17T13:43:19-03:00",
+        "evento": "Monitoramento de integridade inicializado",
+        "dados": {
+            "total_arquivos": 1,
+            "diretorio": "/home/leonardo/securechain/documentos"
+        },
+        "hash_anterior": "17c325df6e2c3c04b27a0ef6ef758033d0672e95fbaf3074b0d2d4207deb9553",
+        "hash_atual": "ffeea4e1be6ff4d038ced03efdf2e61863b6e5830a48675d0cbcd4e523184a2a"
+    },
+    {
+        "id": 6,
+        "timestamp": "2026-06-17T13:43:30-03:00",
+        "evento": "Arquivo alterado",
+        "dados": {
+            "arquivo": "teste.txt",
+            "detectado_em": "2026-06-17T13:43:30"
+        },
+        "hash_anterior": "ffeea4e1be6ff4d038ced03efdf2e61863b6e5830a48675d0cbcd4e523184a2a",
+        "hash_atual": "1eb43d22cf44dc3d2d409b5360bd9fc8725b2323a8e12ccc32329ce95afc714c"
     }
 ]
