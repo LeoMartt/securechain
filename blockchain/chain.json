@@ -16,5 +16,38 @@
         "dados": {},
         "hash_anterior": "e9d8277c158d7fe90c3634db2c2df75720568755a6227de1256c818b4773588f",
         "hash_atual": "8bc2f8544ce67ed0fbc1e002a441097db83dc54c6cce6152f54d1b0e2a82dd14"
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-06-17T13:35:52-03:00",
+        "evento": "Usuário cadastrado no sistema Python",
+        "dados": {
+            "usuario": "admin1",
+            "perfil": "admin"
+        },
+        "hash_anterior": "8bc2f8544ce67ed0fbc1e002a441097db83dc54c6cce6152f54d1b0e2a82dd14",
+        "hash_atual": "9cf8059b6393547033b8f58c199a0f7fb6e2530f0545cfcd976e217297163b09"
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-06-17T13:36:08-03:00",
+        "evento": "Usuário cadastrado no sistema Python",
+        "dados": {
+            "usuario": "analista1",
+            "perfil": "analista"
+        },
+        "hash_anterior": "9cf8059b6393547033b8f58c199a0f7fb6e2530f0545cfcd976e217297163b09",
+        "hash_atual": "a2b83dee94f4ec7dbce940b85ff5c3216a5db4f43c999a9af1795728a4bbc2a7"
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-06-17T13:36:23-03:00",
+        "evento": "Usuário cadastrado no sistema Python",
+        "dados": {
+            "usuario": "visitante1",
+            "perfil": "visitante"
+        },
+        "hash_anterior": "a2b83dee94f4ec7dbce940b85ff5c3216a5db4f43c999a9af1795728a4bbc2a7",
+        "hash_atual": "17c325df6e2c3c04b27a0ef6ef758033d0672e95fbaf3074b0d2d4207deb9553"
     }
 ]

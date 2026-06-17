@@ -1,0 +1,20 @@
+{
+    "admin1": {
+        "perfil": "admin",
+        "salt": "d56da08dc04e087eb0cc7bc1ee5294ed",
+        "senha_hash": "85b0b25da570e3d577c05c405910f7dd8d6df43fc7157b1e36e82a8b6cafd30c",
+        "criado_em": "2026-06-17T13:35:52"
+    },
+    "analista1": {
+        "perfil": "analista",
+        "salt": "e300f529cbd69ada27e99286b5394854",
+        "senha_hash": "a9ae546ee8a09a95fc660117e4f2c0ca6052033a9898cb0d32c43adccfaff6b3",
+        "criado_em": "2026-06-17T13:36:08"
+    },
+    "visitante1": {
+        "perfil": "visitante",
+        "salt": "071b2301c32908a310efdfbb836d0d53",
+        "senha_hash": "24aa3947b4a739d1a5dc9946d7c4a017c3e00a9585c656d89003c895caa16b20",
+        "criado_em": "2026-06-17T13:36:23"
+    }
+}
