@@ -94,5 +94,182 @@
         },
         "hash_anterior": "f20892f3384972607f44c8bbfe1593f4780d73a6a456ecf123909aa4c0f6bc91",
         "hash_atual": "166079b270b75f02f7d4227aab54b5feb0e2fd59e862c87936a0a439ecb9b493"
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-06-18T09:49:56-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "visitante",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "166079b270b75f02f7d4227aab54b5feb0e2fd59e862c87936a0a439ecb9b493",
+        "hash_atual": "c0c1c72eb01e5563d0ddf6c6451e16821fe213fc19170499a455fb9b3d4fcffa"
+    },
+    {
+        "id": 10,
+        "timestamp": "2026-06-18T09:50:04-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "visitante",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "c0c1c72eb01e5563d0ddf6c6451e16821fe213fc19170499a455fb9b3d4fcffa",
+        "hash_atual": "e4d7aea8c674d4fb9b98a0964a3a3cd9c499ab3eb741443e73dc52eb76863ec2"
+    },
+    {
+        "id": 11,
+        "timestamp": "2026-06-18T09:50:20-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "visitante",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "e4d7aea8c674d4fb9b98a0964a3a3cd9c499ab3eb741443e73dc52eb76863ec2",
+        "hash_atual": "703e612e91e086e2441f6db4b527d05a1aa718396d668fde3fdd54e793e5940d"
+    },
+    {
+        "id": 12,
+        "timestamp": "2026-06-18T09:50:29-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "visitante",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "703e612e91e086e2441f6db4b527d05a1aa718396d668fde3fdd54e793e5940d",
+        "hash_atual": "92748353254b2c2725d97e1b91866f27cb557e63e8ea2bb311cc51b62f4f8c39"
+    },
+    {
+        "id": 13,
+        "timestamp": "2026-06-18T09:50:48-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "administrador",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "92748353254b2c2725d97e1b91866f27cb557e63e8ea2bb311cc51b62f4f8c39",
+        "hash_atual": "03aad5401f99fecd0b879c063f6ee619c42df80b43ba95197737e2b2e66b9f37"
+    },
+    {
+        "id": 14,
+        "timestamp": "2026-06-18T09:51:09-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "visitante",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "03aad5401f99fecd0b879c063f6ee619c42df80b43ba95197737e2b2e66b9f37",
+        "hash_atual": "3e5f584d21a04c3adef3c0c79f4b9e8f740c22bc8b455da69fcef41fbaaab7e6"
+    },
+    {
+        "id": 15,
+        "timestamp": "2026-06-18T09:51:22-03:00",
+        "evento": "Tentativa de login negada",
+        "dados": {
+            "usuario": "visitante",
+            "motivo": "usuario inexistente"
+        },
+        "hash_anterior": "3e5f584d21a04c3adef3c0c79f4b9e8f740c22bc8b455da69fcef41fbaaab7e6",
+        "hash_atual": "03425f7ff70e1a528d112067e73dbb80640d96445038052cd4f9a340e68eb486"
+    },
+    {
+        "id": 16,
+        "timestamp": "2026-06-18T09:51:39-03:00",
+        "evento": "Login realizado com sucesso",
+        "dados": {
+            "usuario": "admin1",
+            "perfil": "admin"
+        },
+        "hash_anterior": "03425f7ff70e1a528d112067e73dbb80640d96445038052cd4f9a340e68eb486",
+        "hash_atual": "35f4bc005ab2801f586e6f8e41ea0baf70fa6adb1973afba6d7cdf6393f3e048"
+    },
+    {
+        "id": 17,
+        "timestamp": "2026-06-18T09:52:24-03:00",
+        "evento": "Login realizado com sucesso",
+        "dados": {
+            "usuario": "visitante1",
+            "perfil": "visitante"
+        },
+        "hash_anterior": "35f4bc005ab2801f586e6f8e41ea0baf70fa6adb1973afba6d7cdf6393f3e048",
+        "hash_atual": "442f5c8699ec626b873184481efcfe69e22828b2ae1ad3a7ba7259dcee429f94"
+    },
+    {
+        "id": 18,
+        "timestamp": "2026-06-18T10:26:20-03:00",
+        "evento": "Login realizado com sucesso",
+        "dados": {
+            "usuario": "analista1",
+            "perfil": "analista"
+        },
+        "hash_anterior": "442f5c8699ec626b873184481efcfe69e22828b2ae1ad3a7ba7259dcee429f94",
+        "hash_atual": "6181b57af7a6d233a0b48f5b8357287ea31142b7461bba8b63893c50141f5799"
+    },
+    {
+        "id": 19,
+        "timestamp": "2026-06-18T10:28:14-03:00",
+        "evento": "Monitoramento de integridade inicializado",
+        "dados": {
+            "total_arquivos": 2,
+            "diretorio": "/home/leonardo/securechain/documentos"
+        },
+        "hash_anterior": "6181b57af7a6d233a0b48f5b8357287ea31142b7461bba8b63893c50141f5799",
+        "hash_atual": "ac81eb1045e39aa87344643e3e55a79024062317f989e929f78072449836080d"
+    },
+    {
+        "id": 20,
+        "timestamp": "2026-06-18T10:28:30-03:00",
+        "evento": "Arquivo alterado",
+        "dados": {
+            "arquivo": "contrato_teste.txt",
+            "detectado_em": "2026-06-18T10:28:30"
+        },
+        "hash_anterior": "ac81eb1045e39aa87344643e3e55a79024062317f989e929f78072449836080d",
+        "hash_atual": "287d4ee30c8db833de0bf333b611959fc69c1ff91cdc226087dc1095a8a56a98"
+    },
+    {
+        "id": 21,
+        "timestamp": "2026-06-18T10:28:45-03:00",
+        "evento": "Arquivo incluído",
+        "dados": {
+            "arquivo": "novo_documento.txt",
+            "detectado_em": "2026-06-18T10:28:45"
+        },
+        "hash_anterior": "287d4ee30c8db833de0bf333b611959fc69c1ff91cdc226087dc1095a8a56a98",
+        "hash_atual": "01440dc2b830c5317022e7b2f3ea14412b9eca1e6ed24f14c70593dde5566e8a"
+    },
+    {
+        "id": 22,
+        "timestamp": "2026-06-18T10:29:00-03:00",
+        "evento": "Arquivo excluído",
+        "dados": {
+            "arquivo": "novo_documento.txt",
+            "detectado_em": "2026-06-18T10:29:00"
+        },
+        "hash_anterior": "01440dc2b830c5317022e7b2f3ea14412b9eca1e6ed24f14c70593dde5566e8a",
+        "hash_atual": "0ed2ff6defdb4cfe1f24c410416715ce3217fbd95acab2953ea1a1cadd3cafa5"
+    },
+    {
+        "id": 23,
+        "timestamp": "2026-06-18T10:29:26-03:00",
+        "evento": "Relatório de auditoria do sistema operacional gerado",
+        "dados": {
+            "arquivo": "auditoria/relatorios/auditoria_20260618_102926.txt"
+        },
+        "hash_anterior": "0ed2ff6defdb4cfe1f24c410416715ce3217fbd95acab2953ea1a1cadd3cafa5",
+        "hash_atual": "1218dc44b91ace9c9b3606df31d2e57792c8e5c8e7f64a6cb3a64693702c2c92"
+    },
+    {
+        "id": 24,
+        "timestamp": "2026-06-18T10:31:50-03:00",
+        "evento": "Backup seguro executado",
+        "dados": {
+            "arquivo": "backup/backups/documentos_20260618_103146.tar.gz.enc",
+            "tamanho_bytes": 304,
+            "criptografia": "AES-256-CBC com PBKDF2",
+            "status": "OK"
+        },
+        "hash_anterior": "1218dc44b91ace9c9b3606df31d2e57792c8e5c8e7f64a6cb3a64693702c2c92",
+        "hash_atual": "a735a5e150de53f66b806dad8611131dcb6c79945797becf0941323c48638104"
     }
 ]

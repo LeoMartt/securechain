@@ -1,0 +1,58 @@
+RELATÓRIO DE AUDITORIA DO SISTEMA OPERACIONAL
+Gerado em: 2026-06-18T10:29:26
+======================================================================
+
+
+### Comando: who
+----------------------------------------------------------------------
+leonardo seat0        2026-06-17 12:46
+leonardo tty2         2026-06-17 12:46
+Debian-gdm seat0        2026-06-18 08:22
+Debian-gdm tty1         2026-06-18 08:22
+
+
+### Comando: last
+----------------------------------------------------------------------
+administ pts/0                         Thu Jun 18 09:34 - 09:36  (00:01)
+visitant pts/0                         Thu Jun 18 09:32 - 09:32  (00:00)
+visitant pts/0                         Thu Jun 18 09:30 - 09:32  (00:01)
+analista pts/0                         Thu Jun 18 09:30 - 09:30  (00:00)
+Debian-g tty1                          Thu Jun 18 09:20 - 09:26  (00:06)
+Debian-g tty1                          Thu Jun 18 08:22 - still logged in
+leonardo tty2                          Wed Jun 17 12:46 - still logged in
+Debian-g tty1                          Wed Jun 17 12:43 - 12:46  (00:03)
+reboot   system boot  6.12.90+deb13.1- Wed Jun 17 12:42 - still running
+
+wtmpdb begins Wed Jun 17 12:42:11 2026
+
+
+### Comando: ss -tulpn
+----------------------------------------------------------------------
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0            0.0.0.0:40134      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+udp   UNCONN 0      0               [::]:47766         [::]:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*
+
+
+### Comando: ip a
+----------------------------------------------------------------------
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:1d:a1:54 brd ff:ff:ff:ff:ff:ff
+    altname enx0800271da154
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 83609sec preferred_lft 83609sec
+    inet6 fd17:625c:f037:2:a92c:faa8:3250:83e2/64 scope global temporary dynamic 
+       valid_lft 86320sec preferred_lft 7419sec
+    inet6 fd17:625c:f037:2:a00:27ff:fe1d:a154/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86320sec preferred_lft 14320sec
+    inet6 fe80::a00:27ff:fe1d:a154/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
